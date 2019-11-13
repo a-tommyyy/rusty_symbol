@@ -1,0 +1,12 @@
+[package]
+name = "rusty_symbol"
+version = "0.1.0"
+authors = ["atomiyama <tomisuker16@gmail.com>"]
+edition = "2018"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "*"
