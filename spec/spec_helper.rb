@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "rusty_thread"
+require "rusty_symbol"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
